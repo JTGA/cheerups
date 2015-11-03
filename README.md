@@ -30,7 +30,7 @@ Includes User Stories and Wireframes
 
 ##4.  Technologies
 
-Technologies currently in use to build this app include:  Ruby on Rails, HTML, Bootstrap, and CSS/SCSS
+Technologies currently in use to build this app include:  Ruby on Rails, HTML, Bootstrap, and CSS/SCSS.  In addition PostgreSQL was used in the formation of the database.  Also, Trello was used for project management and workflow assistance with Entity Relationship Diagrams (ERD) and User Stories.  Heroku was used as a cloud platform to host the application.
 
 
 
