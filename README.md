@@ -19,6 +19,12 @@ https://github.com/JTGA/cheerups/tree/master/assets/wireframes
 
 ##3.  Trello
 
+Trello Board:
+
+https://trello.com/b/2o9r7EqG/wdi-project-2
+
+Includes User Stories and Wireframes
+
 
 
 
