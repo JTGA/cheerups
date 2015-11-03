@@ -11,6 +11,8 @@
 
 ##1.  Description
 
+Cheerups is a web application wherein registered users can post and share "Cheerups" to make someone smile.  Cheerups typically contain an encouraging image followed by a description.  The user will also have the ability to upvote or downvote a post.
+
 ##2.  Wireframes
 
 Wireframes include but are not limited to: 
