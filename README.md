@@ -30,6 +30,8 @@ Includes User Stories and Wireframes
 
 ##4.  Technologies
 
+Technologies currently in use to build this app include:  Ruby on Rails, HTML, Bootstrap, and CSS/SCSS
+
 
 
 
