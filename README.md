@@ -8,14 +8,16 @@
 
 #
 
-1.  Description
 
-2.  Wireframes
+##1.  Description
 
-	Wireframes include but are not limited to: 
+##2.  Wireframes
+
+Wireframes include but are not limited to: 
+
 https://github.com/JTGA/cheerups/tree/master/assets/wireframes
 
-3.  Trello
+##3.  Trello
 
 
 
