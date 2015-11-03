@@ -4,8 +4,7 @@
 
 1.  Description
 2.  Wireframes
-3.
-4.
+3.  Trello
 
 
 
@@ -16,9 +15,7 @@
 Wireframes include but are not limited to: 
 https://github.com/JTGA/cheerups/tree/master/assets/wireframes
 
-3.
-
-4.
+3.  Trello
 
 
 
