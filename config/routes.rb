@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+
+  root 'images#index'
+
+  resources :users
+
+  resources :images
+
+   # Create a better looking URL for logging in
+  resources :sessions, only: [:new, :create, :destroy]
+  get '/login', to: 'sessions#new'
+end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +65,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
