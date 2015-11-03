@@ -32,8 +32,9 @@ ActiveRecord::Schema.define(version: 20151103014524) do
     t.string   "name"
     t.string   "email"
     t.string   "image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "password_digest"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   add_foreign_key "images", "users"
