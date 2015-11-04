@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   resources :users
 
-  resources :images
+  resources :images do
+  resources :comments
+end
 
    # Create a better looking URL for logging in
   resources :sessions, only: [:new, :create, :destroy]
