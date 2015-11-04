@@ -49,7 +49,7 @@ end
 
 
   private
-  def imaages_params
+  def images_params
     params.require(:image).permit(:uri, :description, :upvote, :downvote, :image)
   end
 end
