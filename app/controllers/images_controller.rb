@@ -30,6 +30,16 @@ class ImagesController < ApplicationController
   end
 end
 
+def update
+  @image = Image.find(params[:id])
+
+  if @image.update(image_params)
+    redirect_to @image
+  else
+    render 'edit'
+  end
+end
+
 
   private
   def imaages_params

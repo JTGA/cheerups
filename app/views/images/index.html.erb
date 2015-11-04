@@ -27,12 +27,15 @@
   <tr>
     <th>Title</th>
     <th>Text</th>
+    <th colspan="2"></th>
   </tr>
 
-  <% @images.each do |article| %>
+  <% @images.each do |image| %>
     <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
+      <td><%= image.title %></td>
+      <td><%= image.text %></td>
+      <td><%= link_to 'Show', image_path(image) %></td>
+      <td><%= link_to 'Edit', edit_image_path(image) %></td>
     </tr>
   <% end %>
 </table>
