@@ -19,7 +19,7 @@
   </p>
 <% end %>
 
-<h1>Listing articles</h1>
+<h1>Listing images</h1>
 
 <%= link_to 'New image', new_image_path %>
 
@@ -27,7 +27,7 @@
   <tr>
     <th>Title</th>
     <th>Text</th>
-    <th colspan="2"></th>
+    <th colspan="3"></th>
   </tr>
 
   <% @images.each do |image| %>
@@ -36,6 +36,9 @@
       <td><%= image.text %></td>
       <td><%= link_to 'Show', image_path(image) %></td>
       <td><%= link_to 'Edit', edit_image_path(image) %></td>
+      <td><%= link_to 'Destroy', image_path(image),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
 </table>
