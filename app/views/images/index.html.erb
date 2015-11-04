@@ -2,6 +2,8 @@
 <p>Find me in app/views/images/index.html.erb</p>
  -->
 
+<h1>Hello, Rails!</h1>
+<%= link_to 'My Blog', controller: 'images' %>
 
 <%= form_for :images, url: images_path do |f| %>
   <p>
@@ -18,6 +20,8 @@
 <% end %>
 
 <h1>Listing articles</h1>
+
+<%= link_to 'New image', new_image_path %>
 
 <table>
   <tr>
