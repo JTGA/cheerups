@@ -2,29 +2,52 @@
 <p>Find me in app/views/images/index.html.erb</p>
  -->
 
-<!DOCTYPE html>
+
+<%= form_for :article, url: images_path do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html>
   <head>
   </head>
 <body>
 
+<h1>Hello World!</h1>
+
   <div id="content">
   </div>
 
   <div id="wrapper">
+
+  <main id="cheerup-main">
+    <div id="cheerups">
+      <div class="cheerup" style="display: inline-block;"></div>
+        <div class="cheerup-content"></div>
+        <div class="cheerup_poster_info"></div>
+
   </div>
 
-  <section>
-
-  <div class='button-group' id='display_methods'>
-
-  <label>
-
-  <input checked="checked" id="button-group_random" name="button-group" type="radio">
-
-  <a href="" class="button-group-item">Random</a>
-
-  </label>
 
 </body>
-</html>
+</html> -->
