@@ -21,7 +21,6 @@ class ImagesController < ApplicationController
   def create
     @image = Image.new(images_params)
     @image.save
-  redirect_to @image
 
     if @image.save
     redirect_to @image

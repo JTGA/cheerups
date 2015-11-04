@@ -1,5 +1,5 @@
 class Image < ActiveRecord::Base
   has_many :comments, dependent: :destroy
-  validates :title, presence: true,
+  validates :uri, presence: true,
                     length: { minimum: 5 }
 end
