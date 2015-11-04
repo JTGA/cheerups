@@ -21,8 +21,13 @@ class ImagesController < ApplicationController
     @image = Image.new(images_params)
     @image.save
   redirect_to @image
-  end
 
+    if @image.save
+    redirect_to @image
+  else
+    render 'new'
+  end
+end
 
 
   private
