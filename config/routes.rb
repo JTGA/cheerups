@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'images#index'
 
+  get 'about' => 'images#about', as: 'about'
+
   resources :users
 
   resources :images do

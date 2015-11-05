@@ -7,12 +7,15 @@
     <div class="col-md-4">
       <div class="panel panel-default">
         <div class="panel-body cheer-up">
-          <%= image.uri %>
-          <text class="image-text">
+          <p class="text-center">
+            <%= image.uri %>
+          </p>
+          <p class="text-center">
+            <%= image_tag image.upload.url(:medium) %>
+          </p>
+          <p class="image-text text-center">
             <%= image.description %>
-          </text>
-          <%= image_tag image.upload.url(:medium) %>
-
+          </p>
         </div>
         <div class="panel-footer">
           <%= link_to 'Show', image_path(image) %>

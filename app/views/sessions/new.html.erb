@@ -1,6 +1,6 @@
 <h1>Login</h1>
 <p id="alert"><%= alert %></p>
-<%= form_tag sessions_path do %>
+<%= bootstrap_form_tag url: '/sessions' do |f| %>
   <div class="field">
     <%= label_tag :email %>
     <%= text_field_tag :email, params[:email] %>
