@@ -5,12 +5,12 @@
 
 <p>
   <strong>Title:</strong>
-  <%= @image.title %>
+  <%= @image.uri %>
 </p>
 
 <p>
   <strong>Text:</strong>
-  <%= @image.text %>
+  <%= @image.description %>
 </p>
 
 <h2>Comments</h2>
@@ -18,6 +18,8 @@
 
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
+
+<%= image_tag @image.upload.url(:medium) %>
 
 <%= link_to 'Edit', edit_image_path(@image) %> |
 <%= link_to 'Back', images_path %>
