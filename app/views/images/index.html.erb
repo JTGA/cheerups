@@ -8,7 +8,9 @@
       <div class="panel panel-default">
         <div class="panel-body cheer-up">
           <%= image.uri %>
-          <%= image.description %>
+          <text class="image-text">
+            <%= image.description %>
+          </text>
           <%= image_tag image.upload.url(:medium) %>
 
         </div>
