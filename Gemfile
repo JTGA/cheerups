@@ -41,6 +41,8 @@ gem "paperclip", "~> 4.3"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'puma'
+
 gem 'rails_12factor', group: :production
 
 group :development, :test do
