@@ -2,8 +2,7 @@
 
 ## Title: Cheerups
 
-https://protected-bayou-8659.herokuapp.com/
-
+[Cheerups](https://protected-bayou-8659.herokuapp.com/)
 
 1.  Description
 2.  Wireframes
