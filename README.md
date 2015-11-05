@@ -2,6 +2,9 @@
 
 ## Title: Cheerups
 
+https://protected-bayou-8659.herokuapp.com/
+
+
 1.  Description
 2.  Wireframes
 3.  Trello
@@ -30,7 +33,7 @@ Includes User Stories and Wireframes
 
 ##4.  Technologies
 
-Technologies currently in use to build this app include:  Ruby on Rails, HTML, Bootstrap, and CSS/SCSS.  In addition PostgreSQL was used in the formation of the database.  Also, Trello was used for project management and workflow assistance with Entity Relationship Diagrams (ERD) and User Stories.  Heroku was used as a cloud platform to host the application.
+Technologies used to build this app include:  Ruby on Rails, HTML, Bootstrap, and CSS/SCSS.  In addition PostgreSQL was used in the formation of the database.  Also, Trello was used for project management and workflow assistance with Entity Relationship Diagrams (ERD) and User Stories.  Heroku was used as a cloud platform to host the application.
 
 
 
