@@ -1,24 +1,32 @@
 <div class="text-center">
+  <p>
+    <strong>Title:</strong>
+    <%= @image.uri %>
+  </p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @image.uri %>
-</p>
+  <p>
+    <strong>Text:</strong>
+    <%= @image.description %>
+  </p>
 
-<p>
-  <strong>Text:</strong>
-  <%= @image.description %>
-</p>
+  <h2>Comments</h2>
+  <%= render @image.comments %>
 
-<h2>Comments</h2>
-<%= render @image.comments %>
+  <div class="comments">
+    <h2>Add a comment:</h2>
 
-<h2>Add a comment:</h2>
-<%= render 'comments/form' %>
+    <%= render 'comments/form' %>
+  </div>
 
+  <div class="col-md-6 col-md-offset-3">
+    <%= image_tag @image.upload.url(:medium) %>
+    <br>
+    <br>
+    <%= link_to 'Edit', edit_image_path(@image) %> |
+    <%= link_to 'Back', images_path %>
+  </div>
 </div>
 
-<%= link_to 'Edit', edit_image_path(@image) %> |
-<%= link_to 'Back', images_path %>
 
-<%= image_tag @image.upload.url(:medium) %>
+
+
