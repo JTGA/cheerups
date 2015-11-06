@@ -25,7 +25,12 @@
           <%= link_to 'Destroy', image_path(image),
                   method: :delete,
                   data: { confirm: 'Are you sure?' } %>
+
+          <div class="like">
+          <%= image_tag("heart297.png", :style => "height: 25px") %>
+          </div>
         </div>
+
       </div>
     </div>
   <% end %>
