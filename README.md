@@ -4,8 +4,7 @@
 
 ##[Cheerups](https://protected-bayou-8659.herokuapp.com/)
 
-![Screenshot](assets/AppScreenShot.png)
-
+<img src="assets/AppScreenShot.png" style="border-style: solid; border-width: 2px;">
 
 1.  Description
 2.  Wireframes
