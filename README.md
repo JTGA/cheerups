@@ -4,6 +4,8 @@
 
 ##[Cheerups](https://protected-bayou-8659.herokuapp.com/)
 
+![Screenshot](assets/AppScreenShot.png)
+
 
 1.  Description
 2.  Wireframes
@@ -21,7 +23,7 @@ Cheerups is a web application by which registered users can post and share "Chee
 
 ##2.  Wireframes
 
-Wireframes include but are not limited to: 
+Wireframes include, but are not limited to: 
 
 https://github.com/JTGA/cheerups/tree/master/assets/wireframes
 
